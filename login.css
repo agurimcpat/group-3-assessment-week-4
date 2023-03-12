@@ -1,0 +1,91 @@
+body{
+    background-image: radial-gradient( rgb(46, 46, 186), rgb(68, 38, 127),mediumpurple);
+    display: grid;
+    justify-content: right;
+
+}
+
+div{
+    background-color: white;
+    border-style: none;
+    align-items: right;
+    justify-items: right;
+    margin: 30px;
+    width: 1210px;
+    height: 600px;
+}
+
+#email{
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgba(228, 223, 230, 0.655);
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+
+}
+#password{
+    border-style: none;
+    background-color: rgba(228, 223, 230, 0.655);
+    padding: 5px;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    margin: 8px;
+}
+#button{
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    background-color: #00bd78;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#a{
+    color: rgb(91, 89, 89);
+}
+#a1{
+    color: rgb(91, 89, 89);
+}
+@media screen and  (max-width: 425px) {
+
+    body{
+        background-image: radial-gradient(skyblue, mediumpurple, mediumpurple);
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+    div{
+        background-color: whitesmoke;
+        border-style: none;
+        margin: -6px;
+        height: 725px;
+        width: 280px;
+    }
+    #email{
+        border-style: none none solid none;
+        border-radius: 0px;
+        background-color: rgba(249, 245, 251, 0.655);
+        height: 50px;
+        width: 200px;
+        padding: 2px;
+    }
+    #password{
+        border-style: none none solid none;
+        border-radius: 0px;
+        background-color: rgba(249, 245, 251, 0.655);
+        height: 50px;
+        width: 200px;
+        padding: 2px;
+    }
+    #button{
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    background-image: linear-gradient(skyblue, mediumpurple,purple);
+    border: none;
+    color: white;
+    cursor: pointer;}
+}
+    
